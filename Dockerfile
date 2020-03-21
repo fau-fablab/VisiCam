@@ -35,4 +35,4 @@ RUN test -f visicam.conf || cp test/visicam.conf .
 EXPOSE 8080
 
 # launch via:
-CMD ant run
+CMD ["ant", "run"]
